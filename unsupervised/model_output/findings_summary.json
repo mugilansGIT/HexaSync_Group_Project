@@ -1,0 +1,42 @@
+{
+  "selected_k": 3,
+  "final_silhouette_score": 0.553,
+  "silhouette_scores_by_k": {
+    "2": 0.5779,
+    "3": 0.553,
+    "4": 0.5294,
+    "5": 0.4625,
+    "6": 0.4773,
+    "7": 0.4424
+  },
+  "cluster_sizes": {
+    "0": 11,
+    "1": 8,
+    "2": 11
+  },
+  "segment_names": {
+    "2": "Casual Listeners",
+    "0": "Regular Listeners",
+    "1": "Power Listeners"
+  },
+  "cluster_centers_original_units": {
+    "0": {
+      "listening_hours_per_week": -0.067,
+      "songs_per_day": -0.058,
+      "skip_rate": -0.251,
+      "playlist_count": 0.063
+    },
+    "1": {
+      "listening_hours_per_week": 1.433,
+      "songs_per_day": 1.427,
+      "skip_rate": -1.194,
+      "playlist_count": 1.326
+    },
+    "2": {
+      "listening_hours_per_week": -0.975,
+      "songs_per_day": -0.98,
+      "skip_rate": 1.119,
+      "playlist_count": -1.028
+    }
+  }
+}
